@@ -6,7 +6,9 @@
     font-family: LatoBold, sans-serif;
     box-sizing: border-box;
 }
-
+a {
+    text-decoration: none;
+}
 html {
     font-size: 10px;
 }
@@ -16,8 +18,8 @@ body {
 }
 
 .header {
-    background-color: #2d303a;
-    box-shadow: 0px 6px 0px #323746;
+    background-color: #2a2d36;
+    box-shadow: 0px 6px 0px #343947;
     z-index: 5;
     position: relative;
 }
@@ -58,7 +60,7 @@ body {
     margin-left: 10px;
     margin-right: 2px;
     list-style-position: inside;
-    color: #494e62;
+    color: #494e61;
 }
 
 .navigation_item span {
@@ -68,11 +70,11 @@ body {
 
 .navigation_item span:hover {
     cursor: pointer;
-    color: #f06c64;
+    color: #f06d66;
 }
 
 .navigation_item:first-child span {
-    color: #f06c64;
+    color: #f06d66;
 }
 
 .navigation_item:first-child {
@@ -80,11 +82,11 @@ body {
 }
 
 .logo span {
-    color: #f06c64;
+    color: #f06d66;
 }
 
 .slider {
-    background-color: #f06c64;
+    background-color: #f06d66;
     box-shadow: 0px 6px 0px #ea676b;
     z-index: 4;
     position: relative;
@@ -98,7 +100,8 @@ body {
 }
 
 .slider_left {
-    margin: 0 0 0 2px; 
+    margin: 0 0 0 2px;
+    cursor: pointer; 
     
 }
 
@@ -108,16 +111,17 @@ body {
 
 .slider_right {
     margin: 0 0 0 10px; 
+    cursor: pointer;
 }
 
 .slider_right:hover {
-    transform: scale(2);
-    filter: brightness(3);
+    transform: scale(1);
+    filter: brightness(2);
 }
 
 .slider_left:hover {
-    transform: scale(2);
-    filter: brightness(3);
+    transform: scale(1);
+    filter: brightness(2);
 }
 
 .our-services {
@@ -182,7 +186,7 @@ body {
     font-weight: 900;
     font-family: LatoBlack, sans-serif;
     cursor: default;
-    color: #666d89;
+    color: #646b86;
 }
 
 .service__info {
@@ -197,7 +201,7 @@ body {
     line-height: 1.9;
     font-family: LatoRegular, sans-serif;
     cursor: default;
-    color: #666d89;
+    color: #646b86;
 }
 
 .last{
