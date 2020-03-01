@@ -80,14 +80,19 @@ body {
 }
 .about-us .wrapper {
     width: 1020px;
-    height: 870px;
+    height: 735px;
     margin: 0 auto;
     background-color: rgb(242, 242, 242);
+    border-bottom: white solid 6px;
 }
 .layout-3-column {
     display: flex;
-    padding-top:56px;
-
+   flex-direction: row;
+   margin-left: 40px;
+   margin-right: 40px;
+  
+    margin-top:45px ;
+    
 }
 .about-us__title {
     padding-top: 60px; 
@@ -103,4 +108,31 @@ body {
     margin-left: 40px;
     line-height: 1.7;
     font-weight: 600;
+}
+
+.employee {
+    width: 298px;
+    height: 460px;
+    margin-right: 20px;   
+   }
+.employee h3 {
+    font-family: LatoBold;
+    margin-top: 9px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.employee p {
+    font-size: 11.4px;
+    line-height: 1.8;
+    margin-top: 8px;
+}
+.social__icon {
+    margin-top: 25px;
+    }
+.social__icon img {
+    margin-right: 5px;
+}
+.social__icon img:hover {
+    filter: brightness(2);
+    cursor: pointer;
 }
