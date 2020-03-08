@@ -87,9 +87,12 @@ body {
 }
 .layout-3-column {
     display: flex;
+    padding-left: 18px;
+    padding-right: 22px;
    flex-direction: row;
-   margin-left: 40px;
-   margin-right: 40px;
+   justify-content: space-evenly;
+  /* margin-left: 40px;
+   margin-right: 40px;*/
   
     margin-top:45px ;
     
@@ -113,7 +116,7 @@ body {
 .employee {
     width: 298px;
     height: 460px;
-    margin-right: 20px;   
+    /*margin-right: 20px;   */
    }
 .employee h3 {
     font-family: LatoBold;
