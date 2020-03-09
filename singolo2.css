@@ -1,0 +1,141 @@
+@import './fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: LatoBold, sans-serif;
+    box-sizing: border-box;
+    color: rgb(102, 109, 137);
+}
+a {
+    text-decoration: none;
+}
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+}
+.portfolio .wrapper {
+    width: 1020px;
+    height: 870px;
+    margin: 0 auto;
+    background-color: rgb(45, 48, 58);
+    border-bottom: rgb(50, 55, 70) solid 6px;
+}
+.portfolio__title{
+   padding-top: 60px; 
+   font-size: 30.5px;
+   margin-left: 40px; 
+   font-family: LatoBlack, sans-serif;
+   font-weight: 790px;
+   
+}
+.portfolio__text {
+    font-family: LatoLight, sans-serif;
+    font-size: 17.5px;
+    padding-top: 22.5px;
+    margin-left: 40px;
+}
+.tags {
+    padding-top: 14px;
+    margin-left: 40px;
+    
+    
+}
+.tag {
+    font-family: LatoRegular, sans-serif;
+    font-size: 11.4px;
+    font-weight: 800;
+    padding: 3.8px 7px;
+    border: 1px solid rgb(102, 109, 137);
+    border-radius: 6px;
+    margin-right: 7px;
+}
+.tag:hover {
+    cursor: pointer;
+    color: rgb(222, 222, 222);
+    border-color: rgb(222, 222, 222);
+}
+.tag__selected {
+    border-color: rgb(222, 222, 222);
+    color: rgb(222, 222, 222);
+}
+.layout-4-column {
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: center;
+    padding-top: 11.8px;
+    overflow: hidden;
+    height: 620px;
+  
+}
+.portfolio__image {
+    
+    overflow: hidden;
+    width: 240px;
+    height: 207px;
+    padding: 10px;
+}
+.about-us .wrapper {
+    width: 1020px;
+    height: 735px;
+    margin: 0 auto;
+    background-color: rgb(242, 242, 242);
+    border-bottom: white solid 6px;
+}
+.layout-3-column {
+    display: flex;
+    padding-left: 18px;
+    padding-right: 22px;
+   flex-direction: row;
+   justify-content: space-evenly;
+  /* margin-left: 40px;
+   margin-right: 40px;*/
+  
+    margin-top:45px ;
+    
+}
+.about-us__title {
+    padding-top: 60px; 
+   font-size: 30.5px;
+   margin-left: 40px; 
+   font-family: LatoBlack, sans-serif;
+   font-weight: 790px;
+}
+.about-us__text {
+    font-family: LatoLight, sans-serif;
+    font-size: 17.8px;
+    padding-top: 17px;
+    margin-left: 40px;
+    line-height: 1.7;
+    font-weight: 600;
+}
+
+.employee {
+    width: 298px;
+    height: 460px;
+    /*margin-right: 20px;   */
+   }
+.employee h3 {
+    font-family: LatoBold;
+    margin-top: 9px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.employee p {
+    font-size: 11.4px;
+    line-height: 1.8;
+    margin-top: 8px;
+}
+.social__icon {
+    margin-top: 25px;
+    }
+.social__icon img {
+    margin-right: 5px;
+}
+.social__icon img:hover {
+    filter: brightness(2);
+    cursor: pointer;
+}
